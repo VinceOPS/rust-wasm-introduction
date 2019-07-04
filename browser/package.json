@@ -1,0 +1,23 @@
+{
+  "name": "rust-wasm-with-node",
+  "version": "0.1.0",
+  "repository": "git@github.com:VinceOPS/rust-wasm-introduction.git",
+  "author": "VinceOPS <vinceops.me>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "rust-wasm-introduction": "../pkg"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.7",
+    "copy-webpack-plugin": "^5.0.5",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}

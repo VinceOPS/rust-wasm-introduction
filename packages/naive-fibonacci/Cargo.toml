@@ -1,0 +1,8 @@
+[package]
+name = "naive-fibonacci"
+version = "0.1.0"
+authors = ["VinceOPS <vinceops.me>"]
+edition = "2018"
+
+[dependencies]
+wasm-bindgen = "0.2"

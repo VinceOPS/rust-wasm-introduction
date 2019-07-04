@@ -1,0 +1,12 @@
+[package]
+name = "rust-wasm-introduction"
+version = "0.1.0"
+authors = ["VinceOPS <vinceops.me>"]
+edition = "2018"
+
+[dependencies]
+bank-account = { version = "0.1.0", path = "packages/bank-account" }
+naive-fibonacci = { version = "0.1.0", path = "packages/naive-fibonacci" }
+
+[lib]
+crate-type = ["cdylib", "rlib"]

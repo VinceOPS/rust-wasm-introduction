@@ -1,0 +1,16 @@
+/target
+**/*.rs.bk
+Cargo.lock
+
+/packages/**/target
+/packages/**/*.rs.bk
+/packages/**/Cargo.lock
+
+# wasm-pack output
+/pkg
+
+# web parts of the project
+yarn-error.log
+.yarn*
+*/node_modules
+*/dist

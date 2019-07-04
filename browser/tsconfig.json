@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "esModuleInterop": true,
+    "lib": ["es2017", "dom"],
+    "strict": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true
+  }
+}
