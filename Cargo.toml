@@ -6,6 +6,7 @@ edition = "2018"
 
 [dependencies]
 bank-account = { version = "0.1.0", path = "packages/bank-account" }
+days-count = { version = "0.1.0", path = "packages/days-count" }
 naive-fibonacci = { version = "0.1.0", path = "packages/naive-fibonacci" }
 
 [lib]
